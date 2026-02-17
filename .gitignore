@@ -1,0 +1,12 @@
+
+
+git config --global core.excludesfile ~/.gitignore_global
+
+# =========================
+# Folders
+# =========================
+
+temp/
+tmp/
+Downloaded/
+_SS/
