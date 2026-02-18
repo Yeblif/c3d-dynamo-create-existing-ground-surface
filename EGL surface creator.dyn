@@ -653,36 +653,6 @@
       "Description": "Given an item, returns the zero-based indices of all its occurrences in the list. If the item cannot be found, an empty list is returned.\n\nList.AllIndicesOf (list: var[]..[], item: var): var[]..[]"
     },
     {
-      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
-      "NodeType": "CodeBlockNode",
-      "Code": "a;",
-      "Id": "65f6ed5ab05c4460b77c2d93b42be7fa",
-      "Inputs": [
-        {
-          "Id": "4b5ceb7876a94bb9af0eaff5ee474b36",
-          "Name": "a",
-          "Description": "a",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "bc80bbd7676f4bf2acb57e619e2f6c76",
-          "Name": "",
-          "Description": "Value of expression at line 1",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Allows for DesignScript code to be authored directly"
-    },
-    {
       "ConcreteType": "CoreNodeModels.FromObject, CoreNodeModels",
       "NodeType": "ExtensionNode",
       "Id": "07c524816db5437693ec79b465bf78c1",
@@ -2424,7 +2394,7 @@
       "Id": "10ff965411cc46fd99808d5097d9225e",
       "Inputs": [
         {
-          "Id": "ef7a60a934274e0886602c3d2fbd3413",
+          "Id": "add3a10f04024f72b0fb746102c44ebb",
           "Name": "a",
           "Description": "a",
           "UsingDefaultValue": false,
@@ -2435,7 +2405,7 @@
       ],
       "Outputs": [
         {
-          "Id": "ff2b5dd11931418185f99565c884294d",
+          "Id": "c7aa07482c264673959d47dc77ec3bd8",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -7328,8 +7298,8 @@
     },
     {
       "Start": "739bc5af734e4a5083ec3011adca295b",
-      "End": "4b5ceb7876a94bb9af0eaff5ee474b36",
-      "Id": "82105ef99bc545adab103be354355a02",
+      "End": "c2b8a698d7544ba4b16803a3d678b68e",
+      "Id": "86ca6309af074747b27f2407b23a6b7b",
       "IsHidden": "False"
     },
     {
@@ -7438,12 +7408,6 @@
       "Start": "f3a8a2c6963c469abedff0f47f12c3de",
       "End": "8d9d390f19914012becb6b2a1e6eb9fb",
       "Id": "526c8528477f49258ba8069cd628878f",
-      "IsHidden": "False"
-    },
-    {
-      "Start": "bc80bbd7676f4bf2acb57e619e2f6c76",
-      "End": "c2b8a698d7544ba4b16803a3d678b68e",
-      "Id": "aba6437ac60a44e4b20a38a23f620835",
       "IsHidden": "False"
     },
     {
@@ -7837,20 +7801,20 @@
       "IsHidden": "False"
     },
     {
-      "Start": "ff2b5dd11931418185f99565c884294d",
+      "Start": "c7aa07482c264673959d47dc77ec3bd8",
       "End": "d4c58414bae344348f017a353b912430",
       "Id": "39f6893d4b65483ca27dbeed4daca961",
       "IsHidden": "False"
     },
     {
-      "Start": "ff2b5dd11931418185f99565c884294d",
+      "Start": "c7aa07482c264673959d47dc77ec3bd8",
       "End": "64424c470f19414188c54e47609e9798",
       "Id": "26a1e690afdb42a0810a610076fb3f03",
       "IsHidden": "False"
     },
     {
       "Start": "0ad4ac718cc9482fa19e4412b19e3c7b",
-      "End": "ef7a60a934274e0886602c3d2fbd3413",
+      "End": "add3a10f04024f72b0fb746102c44ebb",
       "Id": "161510bea1204fb28d8b5b9f83bf3be8",
       "IsHidden": "False"
     },
@@ -9049,8 +9013,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -1214.8203961145309,
-        "Y": 5738.0401114404367
+        "X": -3439.3234554428354,
+        "Y": 5769.14600178592
       },
       {
         "Name": "CogoPoint.ByGeometry",
@@ -9059,8 +9023,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 7519.9091139298107,
-        "Y": 6203.1182949411377
+        "X": 5040.6537464288049,
+        "Y": 6251.9438929882035
       },
       {
         "Name": "Document.Current",
@@ -9069,8 +9033,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 5819.6471880472227,
-        "Y": 6806.0620187532568
+        "X": 3181.9313112770733,
+        "Y": 6781.3884116029694
       },
       {
         "Name": "Code Block",
@@ -9079,8 +9043,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 6202.1683632149161,
-        "Y": 6620.7568262926825
+        "X": 3564.4524864447667,
+        "Y": 6596.0832191423951
       },
       {
         "Name": "Point.ByCoordinates",
@@ -9089,8 +9053,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 2164.4333079360626,
-        "Y": 5763.575482751472
+        "X": -612.74774611016937,
+        "Y": 5780.4580423505377
       },
       {
         "Name": "Layer.Create",
@@ -9099,8 +9063,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 6543.7630731803065,
-        "Y": 6765.9778848692122
+        "X": 3906.0471964101571,
+        "Y": 6741.3042777189248
       },
       {
         "Name": "Seperate x,y,z",
@@ -9109,8 +9073,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 1613.1945588672725,
-        "Y": 5750.1255813571124
+        "X": -1163.9864951789596,
+        "Y": 5767.0081409561781
       },
       {
         "Name": "CogoPointGroup.ByCogoPoints",
@@ -9119,8 +9083,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": true,
-        "X": 7995.0074059993422,
-        "Y": 6508.4181475145951
+        "X": 5515.7520384983363,
+        "Y": 6557.2437455616609
       },
       {
         "Name": "Relay",
@@ -9129,8 +9093,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 6802.2837815411467,
-        "Y": 7082.1854635482823
+        "X": 4020.816459024441,
+        "Y": 7047.6658669633
       },
       {
         "Name": "Surface name",
@@ -9159,8 +9123,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -0.696439022900563,
-        "Y": 6013.603744962872
+        "X": -2777.8774930691325,
+        "Y": 6030.4863045619377
       },
       {
         "Name": "List.FilterByBoolMask",
@@ -9169,8 +9133,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 1093.2156653581524,
-        "Y": 5750.3865860758924
+        "X": -1683.9653886880797,
+        "Y": 5767.2691456749581
       },
       {
         "Name": "List.AllIndicesOf",
@@ -9179,18 +9143,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 416.53442371958249,
-        "Y": 5880.7646583352325
-      },
-      {
-        "Name": "Relay",
-        "ShowGeometry": true,
-        "Id": "65f6ed5ab05c4460b77c2d93b42be7fa",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 6236.113032344575,
-        "Y": 7078.5720157069145
+        "X": -2360.6466303266498,
+        "Y": 5897.6472179342982
       },
       {
         "Name": "String from Object",
@@ -9199,8 +9153,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -45.024730980105574,
-        "Y": 5881.2447165874928
+        "X": -2822.2057850263377,
+        "Y": 5898.1272761865584
       },
       {
         "Name": "List.IsEmpty",
@@ -9209,8 +9163,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 737.09538289069246,
-        "Y": 5882.263381361312
+        "X": -2040.0856711555396,
+        "Y": 5899.1459409603776
       },
       {
         "Name": "Objects Types",
@@ -9679,8 +9633,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": true,
-        "X": 8133.6953272842293,
-        "Y": 13654.840927532015
+        "X": 8133.69532728423,
+        "Y": 13654.840927532
       },
       {
         "Name": "Layer.Create",
@@ -9699,8 +9653,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 7157.3241207147812,
-        "Y": 14295.884459647385
+        "X": 7157.32412071478,
+        "Y": 14295.8844596474
       },
       {
         "Name": "Relay",
@@ -10499,8 +10453,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 1654.6926095644026,
-        "Y": 6248.0457528470879
+        "X": -1122.4884444818294,
+        "Y": 6264.9283124461535
       },
       {
         "Name": "Code Block",
@@ -10509,8 +10463,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 1220.7964610111626,
-        "Y": 6283.0412986765887
+        "X": -1556.3845930350694,
+        "Y": 6299.9238582756543
       },
       {
         "Name": "List.SortByKey",
@@ -10519,8 +10473,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 2675.0398854112295,
-        "Y": 6213.0727015193488
+        "X": -102.14116863500249,
+        "Y": 6229.9552611184145
       },
       {
         "Name": "List.Count",
@@ -10529,8 +10483,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4335.7443045588734,
-        "Y": 7809.1405975042708
+        "X": 1682.8868106683026,
+        "Y": 7700.6392685107912
       },
       {
         "Name": "Range",
@@ -10539,8 +10493,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4655.6953112335432,
-        "Y": 7750.9944760571707
+        "X": 2002.8378173429724,
+        "Y": 7642.4931470636911
       },
       {
         "Name": "Code Block",
@@ -10549,8 +10503,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4347.4107391120033,
-        "Y": 7642.6844571601705
+        "X": 1694.5532452214325,
+        "Y": 7534.1831281666909
       },
       {
         "Name": "concat name",
@@ -10559,8 +10513,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 5650.077912711673,
-        "Y": 7548.81768806107
+        "X": 2997.2204188211022,
+        "Y": 7440.31635906759
       },
       {
         "Name": "String.PadLeft",
@@ -10569,8 +10523,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 5230.244646098572,
-        "Y": 7749.47572817147
+        "X": 2577.3871522080012,
+        "Y": 7640.9743991779906
       },
       {
         "Name": "Code Block",
@@ -10579,8 +10533,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4983.427389102073,
-        "Y": 7887.480970437171
+        "X": 2330.5698952115022,
+        "Y": 7778.9796414436914
       },
       {
         "Name": "String from Object",
@@ -10589,8 +10543,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4917.5426402159828,
-        "Y": 7749.31373529767
+        "X": 2264.685146325412,
+        "Y": 7640.8124063041905
       },
       {
         "Name": "Code Block",
@@ -10599,8 +10553,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 3360.7757883380718,
-        "Y": 7533.5664133809005
+        "X": 707.918294447501,
+        "Y": 7425.0650843874209
       },
       {
         "Name": "Code Block",
@@ -10609,8 +10563,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 6814.4356731230046,
-        "Y": 7227.96094251444
+        "X": 4356.8805714206947,
+        "Y": 7444.9636005014
       },
       {
         "Name": "Objects Types",
@@ -11079,8 +11033,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 3719.3192729770735,
-        "Y": 7843.9571579295607
+        "X": 1066.4617790865027,
+        "Y": 7735.4558289360812
       },
       {
         "Name": "List.AllIndicesOf",
@@ -11089,8 +11043,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 4093.6730696957547,
-        "Y": 7809.7409918496605
+        "X": 1440.8155758051839,
+        "Y": 7701.239662856181
       },
       {
         "Name": "List.Flatten",
@@ -11099,8 +11053,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 6132.9840262795724,
-        "Y": 7548.6095889018588
+        "X": 3480.1265323890016,
+        "Y": 7440.1082599083793
       }
     ],
     "Annotations": [
@@ -11116,10 +11070,10 @@
           "6089a73592a8410a9f912eadaa32ce0a"
         ],
         "HasNestedGroups": false,
-        "Left": -1263.1593070025442,
+        "Left": -5278.1898402846346,
         "Top": 5131.566627750618,
-        "Width": 10433.755353361761,
-        "Height": 201.77628057117,
+        "Width": 14448.785886643851,
+        "Height": 210.00380215576388,
         "FontSize": 96.0,
         "GroupStyleId": "bc688959-ce34-4bf5-90f8-6ddd23f80989",
         "InitialTop": 5276.566627750618,
@@ -11144,13 +11098,13 @@
           "2f4260d722714780b2c6305e9ad152df"
         ],
         "HasNestedGroups": false,
-        "Left": -55.024730980105574,
-        "Top": 5677.1255813571124,
+        "Left": -2832.2057850263377,
+        "Top": 5694.0081409561781,
         "Width": 2454.4580389161683,
         "Height": 468.47816360575962,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 5750.1255813571124,
+        "InitialTop": 5767.0081409561781,
         "InitialHeight": 408.47816360575962,
         "TextblockHeight": 63.0,
         "Background": "#FFC1D676"
@@ -11212,13 +11166,13 @@
           "34bc034bc49b4e4b85e12eaff8fb642c"
         ],
         "HasNestedGroups": false,
-        "Left": 7509.9091139298107,
-        "Top": 6130.1182949411377,
+        "Left": 5030.6537464288049,
+        "Top": 6178.9438929882035,
         "Width": 844.09829206953145,
         "Height": 610.29985257345743,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 6203.1182949411377,
+        "InitialTop": 6251.9438929882035,
         "InitialHeight": 450.29985257345743,
         "TextblockHeight": 63.0,
         "Background": "#FFC1D676"
@@ -11235,13 +11189,13 @@
           "8bfbb299d5564ffdbc604b9226c08a20"
         ],
         "HasNestedGroups": false,
-        "Left": -1172.5670552301472,
-        "Top": 9428.5562921930432,
-        "Width": 10433.755353361761,
-        "Height": 201.77628057116817,
+        "Left": -5292.303817200127,
+        "Top": 9425.9554020791475,
+        "Width": 14553.492115331741,
+        "Height": 196.60089011389573,
         "FontSize": 96.0,
         "GroupStyleId": "bc688959-ce34-4bf5-90f8-6ddd23f80989",
-        "InitialTop": 9573.5562921930432,
+        "InitialTop": 9570.9554020791475,
         "InitialHeight": 152.77628057116817,
         "TextblockHeight": 135.0,
         "Background": "#FFA4E1FF"
@@ -11308,13 +11262,13 @@
           "3519143702384e7abd0a4555567c7e82"
         ],
         "HasNestedGroups": false,
-        "Left": 5809.6471880472227,
-        "Top": 6547.7568262926825,
+        "Left": 3171.9313112770733,
+        "Top": 6523.0832191423951,
         "Width": 967.11588513308379,
         "Height": 485.22105857652969,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 6620.7568262926825,
+        "InitialTop": 6596.0832191423951,
         "InitialHeight": 330.30519246057429,
         "TextblockHeight": 63.0,
         "Background": "#FFC1D676"
@@ -11355,13 +11309,13 @@
           "be14a8122025443da73496cda2d2c118"
         ],
         "HasNestedGroups": false,
-        "Left": -1048.1637670613345,
-        "Top": 12824.679827448224,
-        "Width": 10433.755353361761,
-        "Height": 201.77628057116817,
+        "Left": -5202.407872296013,
+        "Top": 12822.635199969191,
+        "Width": 14587.99945859644,
+        "Height": 196.04462747903381,
         "FontSize": 96.0,
         "GroupStyleId": "bc688959-ce34-4bf5-90f8-6ddd23f80989",
-        "InitialTop": 12969.679827448224,
+        "InitialTop": 12967.635199969191,
         "InitialHeight": 152.77628057116817,
         "TextblockHeight": 135.0,
         "Background": "#FFA4E1FF"
@@ -11659,10 +11613,10 @@
           "9862b6fd230e47eda8c5bb1ba01b387d"
         ],
         "HasNestedGroups": false,
-        "Left": -1384.9791056875429,
+        "Left": -5087.4614406130122,
         "Top": 15644.35978734436,
-        "Width": 10433.755353361761,
-        "Height": 201.77628057117545,
+        "Width": 14136.23768828723,
+        "Height": 250.88082082217443,
         "FontSize": 96.0,
         "GroupStyleId": "bc688959-ce34-4bf5-90f8-6ddd23f80989",
         "InitialTop": 15789.35978734436,
@@ -12017,13 +11971,13 @@
           "564f0179cf3443ca85e908f477da599f"
         ],
         "HasNestedGroups": false,
-        "Left": 2665.0398854112295,
-        "Top": 6131.0727015193488,
+        "Left": -112.14116863500249,
+        "Top": 6147.9552611184145,
         "Width": 241.0,
         "Height": 249.0,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 6213.0727015193488,
+        "InitialTop": 6229.9552611184145,
         "InitialHeight": 305.04491937374041,
         "TextblockHeight": 72.0,
         "Background": "#FFC1D676"
@@ -12040,13 +11994,13 @@
           "7c7b33b3f1d1427ea74231462a901e5d"
         ],
         "HasNestedGroups": false,
-        "Left": 1210.7964610111626,
-        "Top": 6175.0457528470879,
+        "Left": -1566.3845930350694,
+        "Top": 6191.9283124461535,
         "Width": 676.89614855324,
         "Height": 239.99554582950077,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 6248.0457528470879,
+        "InitialTop": 6264.9283124461535,
         "InitialHeight": 179.99554582950077,
         "TextblockHeight": 63.0,
         "Background": "#FFC1D676"
@@ -12070,13 +12024,13 @@
           "349c3866bb1d42fb9a63f45b8321f26d"
         ],
         "HasNestedGroups": false,
-        "Left": 3709.3192729770735,
-        "Top": 7475.81768806107,
+        "Left": 1056.4617790865027,
+        "Top": 7367.31635906759,
         "Width": 2336.7586397345995,
         "Height": 553.663282376101,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
-        "InitialTop": 7548.81768806107,
+        "InitialTop": 7440.31635906759,
         "InitialHeight": 483.66328237610105,
         "TextblockHeight": 63.0,
         "Background": "#FFC1D676"
@@ -12336,8 +12290,8 @@
         "HeightAdjustment": 0.0,
         "Nodes": [],
         "HasNestedGroups": false,
-        "Left": -1253.1593070025442,
-        "Top": 5292.3429083217879,
+        "Left": -5268.1898402846346,
+        "Top": 5300.5704299063818,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -12416,8 +12370,8 @@
         "HeightAdjustment": 0.0,
         "Nodes": [],
         "HasNestedGroups": false,
-        "Left": -1162.5670552301472,
-        "Top": 9589.3325727642114,
+        "Left": -5282.303817200127,
+        "Top": 9578.9554020791475,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -12456,8 +12410,8 @@
         "HeightAdjustment": 0.0,
         "Nodes": [],
         "HasNestedGroups": false,
-        "Left": -1038.1637670613345,
-        "Top": 12985.456108019393,
+        "Left": -5192.407872296013,
+        "Top": 12975.635199969191,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -12496,8 +12450,8 @@
         "HeightAdjustment": 0.0,
         "Nodes": [],
         "HasNestedGroups": false,
-        "Left": -1374.9791056875429,
-        "Top": 15805.136067915535,
+        "Left": -5077.4614406130122,
+        "Top": 15854.240608166534,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -12608,8 +12562,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": -2176.4325094332266,
-    "Y": -2186.2283784268852,
-    "Zoom": 0.43361402207890187
+    "X": -2113.7709226568581,
+    "Y": -5316.6812397953327,
+    "Zoom": 0.41765494546570942
   }
 }
