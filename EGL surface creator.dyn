@@ -7770,36 +7770,6 @@
       "Description": "Returns an item from the given list that's located at the specified index.\n\nList.GetItemAtIndex (list: var[]..[], index: int): var[]..[]"
     },
     {
-      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
-      "NodeType": "CodeBlockNode",
-      "Code": "a;",
-      "Id": "a9c582aa790e49b4a61178e36e07a022",
-      "Inputs": [
-        {
-          "Id": "5012c04898a54b899c9ffffca89db940",
-          "Name": "a",
-          "Description": "a",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "1ef8255dfbcb43bdba0986069876c483",
-          "Name": "",
-          "Description": "Value of expression at line 1",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Allows for DesignScript code to be authored directly"
-    },
-    {
       "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
       "NodeType": "FunctionNode",
       "FunctionSignature": "DSCore.List.UniqueItems@var[]..[]",
@@ -8826,8 +8796,8 @@
     },
     {
       "Start": "d1838fd03ec64e08848f137c0e327106",
-      "End": "5012c04898a54b899c9ffffca89db940",
-      "Id": "8da5ae1d51af406984d1613173a92afe",
+      "End": "26dfd64a026e4668a208aa6e490b2e11",
+      "Id": "cc2d9fa47d99409292d37e87157694e9",
       "IsHidden": "False"
     },
     {
@@ -9668,12 +9638,6 @@
       "Start": "f3706ad9fd25436f951bdf918ff1bf04",
       "End": "3390a35001934a649bfd8697c9102a0c",
       "Id": "7e46e2ddfbc94a25ab409b0aa9879246",
-      "IsHidden": "False"
-    },
-    {
-      "Start": "1ef8255dfbcb43bdba0986069876c483",
-      "End": "26dfd64a026e4668a208aa6e490b2e11",
-      "Id": "08bdb87d3040431b8e4882f29ee21a81",
       "IsHidden": "False"
     },
     {
@@ -12049,16 +12013,6 @@
         "Y": 14526.197797416513
       },
       {
-        "Name": "Code Block",
-        "ShowGeometry": true,
-        "Id": "a9c582aa790e49b4a61178e36e07a022",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": -2030.2111027535993,
-        "Y": 14533.574927854668
-      },
-      {
         "Name": "List.UniqueItems",
         "ShowGeometry": true,
         "Id": "de81e95cc7bd45f1badcf108a8e98e96",
@@ -13675,8 +13629,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": -1058.3108452393271,
-    "Y": -22562.916345368809,
-    "Zoom": 1.3605544731016503
+    "X": -2266.6208299135,
+    "Y": -2444.5862195923287,
+    "Zoom": 0.2760228671379884
   }
 }
