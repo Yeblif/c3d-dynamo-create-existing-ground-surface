@@ -21,6 +21,15 @@
   },
   "Inputs": [
     {
+      "Id": "f7d6169095f44eaba134153b6a93c6f4",
+      "Name": "Surface Styles",
+      "Type": "selection",
+      "Type2": "dropdownSelection",
+      "Value": "Contours 0.1m and 0.5m",
+      "Description": "Select Surface Style.",
+      "SelectedIndex": -1
+    },
+    {
       "Id": "984e0f0a05534fd7b01c4cbff8fb6e92",
       "Name": "Surface name",
       "Type": "string",
@@ -108,7 +117,7 @@
     },
     {
       "ConcreteType": "Camber.UI.SurfaceStyleDropDown, CamberUI",
-      "SelectedIndex": 9,
+      "SelectedIndex": -1,
       "SelectedString": "Contours 0.1m and 0.5m",
       "NodeType": "ExtensionNode",
       "Id": "f7d6169095f44eaba134153b6a93c6f4",
@@ -10015,11 +10024,11 @@
         "Name": "Surface Styles",
         "ShowGeometry": true,
         "Id": "f7d6169095f44eaba134153b6a93c6f4",
-        "IsSetAsInput": false,
+        "IsSetAsInput": true,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 11951.448366204986,
-        "Y": 11529.521584491709
+        "X": 11230.173296984391,
+        "Y": 11449.048746190238
       },
       {
         "Name": "Output autocad point x,y,z and layer names",
@@ -12415,13 +12424,14 @@
         "WidthAdjustment": 0.0,
         "HeightAdjustment": 0.0,
         "Nodes": [
-          "984e0f0a05534fd7b01c4cbff8fb6e92"
+          "984e0f0a05534fd7b01c4cbff8fb6e92",
+          "f7d6169095f44eaba134153b6a93c6f4"
         ],
         "HasNestedGroups": false,
-        "Left": 11271.486926394155,
+        "Left": 11220.173296984391,
         "Top": 11053.720629108768,
-        "Width": 195.0,
-        "Height": 214.0,
+        "Width": 275.0,
+        "Height": 527.32811708146983,
         "FontSize": 36.0,
         "GroupStyleId": "883066aa-1fe2-44a4-9bd1-c3df86bfe9f6",
         "InitialTop": 11135.720629108768,
@@ -12713,14 +12723,13 @@
         "HeightAdjustment": 0.0,
         "Nodes": [
           "485dd5188f4a4b298d5571e29aaeab5a",
-          "f7d6169095f44eaba134153b6a93c6f4",
           "59b313e21b9e43a5bf3e924934a1f7f3"
         ],
         "HasNestedGroups": false,
-        "Left": 11941.448366204986,
+        "Left": 12111.074757499844,
         "Top": 11198.054599054691,
-        "Width": 854.25835247214127,
-        "Height": 463.46698543701859,
+        "Width": 684.6319611772833,
+        "Height": 382.50792437496057,
         "FontSize": 36.0,
         "GroupStyleId": "00000000-0000-0000-0000-000000000000",
         "InitialTop": 11271.054599054691,
@@ -13908,8 +13917,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": -6511.6960141824475,
-    "Y": -6201.8043679021275,
-    "Zoom": 0.60502192168041014
+    "X": -7339.3334478566585,
+    "Y": -6978.0753635236078,
+    "Zoom": 0.6710338685669629
   }
 }
